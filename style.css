@@ -15,6 +15,7 @@ body {
   font-family: 'Press Start 2P', sans-serif;
   color: #eee;
   background-color: #222;
+  max-height: 100vh;
   /* background-color: #60b347; */
 }
 
@@ -26,7 +27,7 @@ header {
 }
 
 main {
-  height: 65vh;
+  height: 60vh;
   color: #eee;
   display: flex;
   align-items: center;
@@ -92,7 +93,7 @@ h1 {
   width: 25rem;
   text-align: center;
   display: block;
-  margin-bottom: 3rem;
+  margin-bottom: 2rem;
 }
 
 .btn {
@@ -110,10 +111,15 @@ h1 {
 }
 
 .message {
-  margin-bottom: 8rem;
-  height: 3rem;
+  margin-bottom: 2rem;
+  height: 8rem;
 }
 
 .label-score {
   margin-bottom: 2rem;
+}
+
+.footer-txt{
+ text-align: center;
+ padding-bottom: 1rem;
 }
